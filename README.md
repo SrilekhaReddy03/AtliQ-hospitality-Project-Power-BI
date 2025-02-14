@@ -1,5 +1,5 @@
 
-## AtliQ Grands hospitality Project
+## AtliQ hospitality Project
 
 
 ### Dashboard Link : https://app.powerbi.com/view?r=eyJrIjoiMzhiYjI0YTctN2FmNC00NGZiLThhYjQtMGY0YjY2MThiNDU0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
@@ -15,6 +15,7 @@ AtliQ Grands have been in the hospitality industry for the past 20 years . They 
 - Step 2 : Loaded data into power Query for transforming the data.
 - Step 3 : Promoted first row as headers for dim_rooms table.
 - Step 4 : Data modeling was done by connecting all the dimension tables and fact tables by star schema.
+![Image](https://github.com/user-attachments/assets/b986e5a8-b553-46f0-b506-b52e94527593)
 - Step 5 : According to the AtliQ Grands they consider weekend as friday and saturday. So we created a seperate column in the dim_date table for the day_type to consider friday and saturday as weekends by using DAX measure.
  day_type = 
 VAR wkd = WEEKDAY(dim_date[date])
@@ -85,6 +86,9 @@ DIVIDE(revcw,revpw,0)-1"
 
 - Step 9.  created line chart for key metrics trend over week number and day type.
 - Step 10.  created visualisation for key metrics for different property, day type.
+
+![Image](https://github.com/user-attachments/assets/4622bd44-523a-4fd7-b8d1-93bf672062aa)
+
 
 ### Conclusion
  
